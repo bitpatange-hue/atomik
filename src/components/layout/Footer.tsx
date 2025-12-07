@@ -110,18 +110,18 @@ export function Footer() {
             </ul>
             <div className="mt-6 space-y-2">
               <a
-                href="tel:+918793657598"
+                href="tel:+917972259718"
                 className="flex items-center gap-2 text-sm text-background/70 hover:text-primary transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                +91 8793657598
+                +91 7972259718
               </a>
               <a
-                href="mailto:swapnil@atomik-ag.com"
+                href="mailto:info@atomik.in"
                 className="flex items-center gap-2 text-sm text-background/70 hover:text-primary transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                swapnil@atomik-ag.com
+                info@atomik.in
               </a>
             </div>
           </div>

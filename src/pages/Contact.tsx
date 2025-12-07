@@ -77,7 +77,7 @@ export default function Contact() {
 
               <div className="space-y-6">
                 <a
-                  href="tel:+918793657598"
+                  href="tel:+917972259718"
                   className="flex items-start gap-4 p-4 bg-card rounded-xl border border-border shadow-soft hover:shadow-medium transition-shadow group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
@@ -85,12 +85,12 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                    <p className="text-muted-foreground">+91 8793657598</p>
+                    <p className="text-muted-foreground">+91 7972259718</p>
                   </div>
                 </a>
 
                 <a
-                  href="mailto:swapnil@atomik-ag.com"
+                  href="mailto:info@atomik.in"
                   className="flex items-start gap-4 p-4 bg-card rounded-xl border border-border shadow-soft hover:shadow-medium transition-shadow group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-secondary/20 flex items-center justify-center flex-shrink-0 group-hover:bg-secondary/30 transition-colors">
@@ -98,7 +98,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                    <p className="text-muted-foreground">swapnil@atomik-ag.com</p>
+                    <p className="text-muted-foreground">info@atomik.in</p>
                   </div>
                 </a>
 
