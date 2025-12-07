@@ -13,6 +13,7 @@ const footerLinks = {
     { name: "About Us", path: "/about" },
     { name: "For Investors", path: "/investors" },
     { name: "Contact", path: "/contact" },
+    { name: "Privacy Policy", path: "/privacy" },
   ],
   quickLinks: [
     { name: "Book a Drone Spray", path: "/book" },
@@ -129,7 +130,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-background/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-background/50">
-            © {new Date().getFullYear()} Atomik Agri-Tech. All rights reserved.
+            Copyright © 2025 Atomik - All Rights Reserved.
           </p>
           <p className="text-sm text-background/50">
             Trusted agri-tech ecosystem for modern India.

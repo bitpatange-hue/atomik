@@ -13,6 +13,8 @@ import Book from "./pages/Book";
 import Investors from "./pages/Investors";
 import Contact from "./pages/Contact";
 import Download from "./pages/Download";
+import Privacy from "./pages/Privacy";
+import Cookies from "./pages/Cookies";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +36,8 @@ const App = () => (
           <Route path="/investors" element={<Investors />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/download" element={<Download />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/cookies" element={<Cookies />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
