@@ -59,6 +59,11 @@ export function HeroSection() {
                 <div className="absolute inset-0 bg-gradient-to-br from-secondary/30 to-accent/20 rounded-3xl rotate-6 blur-xl" />
                 <div className="relative bg-primary-foreground/10 backdrop-blur-xl rounded-3xl border border-primary-foreground/20 p-8 transform hover:scale-[1.02] transition-transform duration-500">
                   <div className="space-y-6">
+                    {/* Zero Chemical Exposure Highlight */}
+                    <div className="p-4 bg-accent/20 rounded-xl border border-accent/30">
+                      <span className="text-accent font-bold text-3xl block mb-1">Zero</span>
+                      <span className="text-primary-foreground/90 text-sm">Chemical exposure to farmers & Drone Operators</span>
+                    </div>
                     {/* Stats preview */}
                     {[
                       { label: "Acres Sprayed Today", value: "2,450" },
