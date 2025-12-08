@@ -174,7 +174,7 @@ export default function Privacy() {
                   If you have any questions about this Privacy Policy, please contact us:
                 </p>
                 <div className="space-y-2 text-muted-foreground">
-                  <p>Email: swapnil@atomik-ag.com</p>
+                  <p>Email: swapnil@atomik.in</p>
                   <p>Phone: +91 8793657598</p>
                 </div>
               </div>
