@@ -20,12 +20,6 @@ const stats = [
     label: "Pesticide reduction",
   },
   {
-    icon: Shield,
-    value: "Zero",
-    unit: "",
-    label: "Chemical exposure to farmers",
-  },
-  {
     icon: Users,
     value: "Growing",
     unit: "network",
