@@ -3,27 +3,27 @@ import { Droplets, Leaf, Shield, Users, Zap } from "lucide-react";
 const stats = [
   {
     icon: Zap,
-    value: "25–30",
-    unit: "acres/day",
-    label: "Sprayed using drones",
-  },
-  {
-    icon: Droplets,
-    value: "90%",
-    unit: "less",
-    label: "Water compared to manual",
-  },
-  {
-    icon: Leaf,
-    value: "30–40%",
-    unit: "savings",
-    label: "Pesticide reduction",
+    value: "2,450",
+    unit: "acres",
+    label: "Sprayed Today",
   },
   {
     icon: Users,
-    value: "Growing",
-    unit: "network",
-    label: "Verified pilots across India",
+    value: "127",
+    unit: "pilots",
+    label: "Active Pilots",
+  },
+  {
+    icon: Users,
+    value: "3,200+",
+    unit: "farmers",
+    label: "Farmers Served",
+  },
+  {
+    icon: Shield,
+    value: "Zero",
+    unit: "exposure",
+    label: "Chemical exposure to farmers",
   },
 ];
 
