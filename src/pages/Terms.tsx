@@ -1,6 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
 import { motion } from "framer-motion";
-import { FileText, Shield, User, CreditCard, AlertTriangle, Code, Scale, Mail, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 
 export default function Terms() {
   return (
@@ -47,20 +47,14 @@ export default function Terms() {
             </div>
 
             <div className="bg-card rounded-2xl p-8 border border-border shadow-soft">
-              <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
-                <User className="w-6 h-6 text-primary" />
-                3. User Accounts
-              </h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4">3. User Accounts</h2>
               <p className="text-muted-foreground leading-relaxed">
                 To access certain features, you may need to create an account. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.
               </p>
             </div>
 
             <div className="bg-card rounded-2xl p-8 border border-border shadow-soft">
-              <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
-                <CreditCard className="w-6 h-6 text-primary" />
-                4. Bookings and Payments
-              </h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4">4. Bookings and Payments</h2>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
                 <li>All drone service bookings are subject to pilot availability</li>
                 <li>Payment terms will be as agreed between the farmer and the service provider</li>
@@ -78,20 +72,14 @@ export default function Terms() {
             </div>
 
             <div className="bg-card rounded-2xl p-8 border border-border shadow-soft">
-              <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
-                <Code className="w-6 h-6 text-primary" />
-                6. Intellectual Property
-              </h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4">6. Intellectual Property</h2>
               <p className="text-muted-foreground leading-relaxed">
                 All content on our platform, including text, graphics, logos, and software, is the property of Atomik or its licensors and is protected by intellectual property laws.
               </p>
             </div>
 
             <div className="bg-card rounded-2xl p-8 border border-border shadow-soft">
-              <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
-                <AlertTriangle className="w-6 h-6 text-primary" />
-                7. Limitation of Liability
-              </h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4">7. Limitation of Liability</h2>
               <p className="text-muted-foreground leading-relaxed">
                 Atomik shall not be liable for any indirect, incidental, special, or consequential damages resulting from the use or inability to use our services.
               </p>
@@ -112,20 +100,14 @@ export default function Terms() {
             </div>
 
             <div className="bg-card rounded-2xl p-8 border border-border shadow-soft">
-              <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
-                <Scale className="w-6 h-6 text-primary" />
-                10. Governing Law
-              </h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4">10. Governing Law</h2>
               <p className="text-muted-foreground leading-relaxed">
                 These Terms shall be governed by and construed in accordance with the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in Bengaluru, Karnataka.
               </p>
             </div>
 
             <div className="bg-card rounded-2xl p-8 border border-border shadow-soft">
-              <h2 className="text-2xl font-bold text-foreground mb-4 flex items-center gap-3">
-                <Mail className="w-6 h-6 text-primary" />
-                11. Contact Us
-              </h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4">11. Contact Us</h2>
               <p className="text-muted-foreground leading-relaxed mb-3">
                 For any questions about these Terms, please contact us:
               </p>
