@@ -14,6 +14,7 @@ const footerLinks = {
     { name: "For Investors", path: "/investors" },
     { name: "Contact", path: "/contact" },
     { name: "Privacy Policy", path: "/privacy" },
+    { name: "Terms & Conditions", path: "/terms" },
   ],
   quickLinks: [
     { name: "Book a Drone Spray", path: "/book" },
